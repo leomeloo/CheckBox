@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exemplos de CheckBox com times" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione seu time preferido:" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCorinthians"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Corinthians" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBahia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bahia" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCeara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ceara" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFortaleza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fortaleza" />
+
+    <Button
+        android:id="@+id/btSel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecionar" />
+
+    <Button
+        android:id="@+id/outros"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Outro exemplo..." />
+</LinearLayout>

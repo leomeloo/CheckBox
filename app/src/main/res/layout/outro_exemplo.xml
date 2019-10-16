@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SegundaTela"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OutroExemplo">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exemplos de CheckBox com soma" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione seu pedido:" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCoxinha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coxinha - R$4,00" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFogazza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fogazza - R$5,00" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBroto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brotinho - R$10,00" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pizzas - R$20,00" />
+
+    <Button
+        android:id="@+id/btTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fechar pedido" />
+
+</LinearLayout>
